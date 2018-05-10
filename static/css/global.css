@@ -1,0 +1,53 @@
+html,
+body,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+button,
+input {
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+}
+
+.fl {
+	float: left!important;
+}
+
+.fr {
+	float: right!important;
+}
+
+input::-webkit-input-placeholder {
+	/*WebKit browsers*/
+	font-family: "宋体";
+	font-size: 50%;
+	color: white;
+	text-indent: 20%;
+}
+
+input::-moz-input-placeholder {
+	/*Mozilla Firefox*/
+	font-family: "宋体";
+	font-size: 50%;
+	color: white;
+	text-indent: 20%;
+}
+
+input::-ms-input-placeholder {
+	/*Internet Explorer*/
+	font-family: "宋体";
+	font-size: 50%;
+	color: white;
+	text-indent: 20%;
+}
+
+body {
+	position: relative;
+}
